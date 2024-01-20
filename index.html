@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Meta tags for character set, viewport, and compatibility -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+  <!-- Link to external stylesheet -->
+  <link rel="stylesheet" href="./styles/style.css" />
+
+  <!-- Title of the web page -->
+  <title>Pig Game</title>
+</head>
+
+<body>
+  <!-- Main content of the page -->
+  <main>
+    <!-- Player 1 section -->
+    <section class="player player--0 player--active">
+      <!-- Player 1 name -->
+      <h2 class="name" id="name--0">Player 1</h2>
+      <!-- Player 1 total score -->
+      <p class="score" id="score--0">43</p>
+      <!-- Player 1 current score -->
+      <div class="current">
+        <p class="current-label">Current</p>
+        <p class="current-score" id="current--0">0</p>
+      </div>
+    </section>
+
+    <!-- Player 2 section -->
+    <section class="player player--1">
+      <!-- Player 2 name -->
+      <h2 class="name" id="name--1">Player 2</h2>
+      <!-- Player 2 total score -->
+      <p class="score" id="score--1">24</p>
+      <!-- Player 2 current score -->
+      <div class="current">
+        <p class="current-label">Current</p>
+        <p class="current-score" id="current--1">0</p>
+      </div>
+    </section>
+
+    <!-- Dice image -->
+    <img src="./images/dice-1.png" alt="Playing dice" class="dice" />
+
+    <!-- Buttons for game actions -->
+    <button class="btn btn--new">🔄 New game</button>
+    <button class="btn btn--roll">🎲 Roll dice</button>
+    <button class="btn btn--hold">📥 Hold</button>
+  </main>
+
+  <!-- Script reference for the JavaScript file -->
+  <script src="./script/script.js"></script>
+</body>
+
+</html>
