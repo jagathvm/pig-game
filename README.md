@@ -24,4 +24,4 @@ The Pig Game is a classic two-player dice game that combines luck and strategy. 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/pig-game.git
+   git clone https://jagathvm.github.io/pig-game/
