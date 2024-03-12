@@ -6,6 +6,7 @@ The Pig Game is a turn-based dice game where two players compete to reach a scor
 - [Description](#description)
 - [Features](#features)
 - [Installation](#installation)
+- [Website](#website)
 
 ## Description
 
@@ -25,3 +26,7 @@ The Pig Game is a classic two-player dice game that combines luck and strategy. 
 
    ```bash
    git clone https://jagathvm.github.io/pig-game/
+
+## Website
+
+Check out this website : https://jagathvm.github.io/pig-game/
